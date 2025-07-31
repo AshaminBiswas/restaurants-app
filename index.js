@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
   res.send(
-    "This is Home route,  In this Crud app Only two end points for get data.  First ONE: /person, And SECOND ONE Is : /menu"
+    "This is Home route,  In this Crud app Only two end points for get data. \n  First ONE: /person, And SECOND ONE Is : /menu"
   );
 });
 
