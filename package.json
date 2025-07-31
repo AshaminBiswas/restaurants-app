@@ -1,0 +1,28 @@
+{
+  "name": "resturent-app",
+  "version": "1.0.0",
+  "description": "this is a resturante app with node js, express js, and mongodb for database",
+  "keywords": [
+    "resturent",
+    "app",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "license": "ISC",
+  "author": "ashamin biswas",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start":"node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.5",
+    "nodemon": "^3.1.10"
+  }
+}
