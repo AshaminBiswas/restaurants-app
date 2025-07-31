@@ -7,7 +7,9 @@ require("dotenv").config();
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
-  res.send("This is Home route");
+  res.send(
+    "This is Home route,  In this Crud app Only two end points for get data.  First ONE: /person, And SECOND ONE Is : /menu"
+  );
 });
 
 //import menu routes
