@@ -12,7 +12,7 @@ routes.get("/menu", async (req, res) => {
   }
 });
 
-routes.get("/menu/:test", async (req, res) => {
+routes.get("/menu/:taste", async (req, res) => {
   try {
     const testType = req.params.test;
     if (testType === "sweet" || testType === "spicy" || testType === "sour") {

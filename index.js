@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
   res.send(
-    "This is Home route,  In this Crud app Only two end points for get data. \n  First ONE: /person, And SECOND ONE Is : /menu"
+    " <div style='display:flex, justify-content: space-between'><div><h1>Hi Every one..</h1><p>In this app have only Four end points </p></div><ol><li>['/person']: where you will get all the person data</li><li>['/person/:workType'] : The work Type Value Must be: 'manager' || 'chef' || 'waiter' </li><li>['/menu']: where you will get all the menu data</li><li>['/menu/:taste'] :The taste Value Must be: 'sweet' || 'sour' || 'spicy' </li></ol> </div>"
   );
 });
 
@@ -23,5 +23,5 @@ app.use("/", menuRoutes);
 app.use("/", personRoutes);
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`The app is listening on port no : ${port} `);
+  console.log(`https://loclhost:${port} `);
 });
